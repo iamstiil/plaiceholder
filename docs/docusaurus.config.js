@@ -41,6 +41,21 @@ module.exports = {
           position: "left",
         },
         {
+          type: "dropdown",
+          label: "💜 Sponsors",
+          position: "right",
+          items: [
+            {
+              to: "/sponsors/tips",
+              label: "Tips & Donations",
+            },
+            {
+              to: "/sponsors/corporate",
+              label: "Corporate Sponsors",
+            },
+          ],
+        },
+        {
           href: github,
           position: "right",
           label: "GitHub",
